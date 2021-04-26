@@ -38,6 +38,8 @@ def binary_Search_recursive(number_list, num,left_index,right_index):
         right_index = mid_index - 1
     return binary_Search_recursive(number_list,num,left_index,right_index)
 
+def getheight():
+    pass
 
 if __name__ == '__main__':
     numbers = [1,4,6,9,11,15,15,15,17,21,34,34,56]
